@@ -14,6 +14,7 @@ import Testimonials from '@/components/Testimonials'
 import Faq from '@/components/Faq'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
+import ScrollToTopButton from '@/components/ScrollToTopButton'
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false)
@@ -56,9 +57,7 @@ const Home = () => {
       <Faq />
       <Contact />
       <Footer />
-
-      {/* temp div */}
-      {/* <div className='h-[1000px]'></div> */}
+      <ScrollToTopButton />
     </div>
   )
 }

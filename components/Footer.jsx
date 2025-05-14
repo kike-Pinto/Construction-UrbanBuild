@@ -84,7 +84,7 @@ const Footer = () => {
       {/* copyright */}
       <div className='container mx-auto xl:px-0 py-12 border-t border-border/10 flex flex-col gap-6 xl:flex-row items-center justify-between'>
         <p className='text-border'>
-          Copyright &copy; 2025 UrbanBuild. All rights reserved.
+          Copyright &copy; 2025 WebSoftwareDesarrollo. All rights reserved.
         </p>
         <Socials
           containerStyles='flex gap-6 text-white'
