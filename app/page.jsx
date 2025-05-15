@@ -15,6 +15,7 @@ import Faq from '@/components/Faq'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import ScrollToTopButton from '@/components/ScrollToTopButton'
+import WhatsAppButton from '@/components/WhatsAppButton'
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false)
@@ -58,6 +59,7 @@ const Home = () => {
       <Contact />
       <Footer />
       <ScrollToTopButton />
+      <WhatsAppButton />
     </div>
   )
 }

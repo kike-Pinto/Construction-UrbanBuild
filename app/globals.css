@@ -32,3 +32,55 @@
     @apply text-2xl font-semibold;
   }
 }
+
+.whatsapp-contact-button {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  z-index: 9999;
+}
+
+.whatsapp-contact-button a {
+  display: flex;
+  align-items: center;
+  background-color: #25d366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.whatsapp-contact-button a:hover {
+  background-color: #128c7e;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.whatsapp-text {
+  font-size: 16px;
+}
+
+/* Versión móvil (solo icono) */
+@media (max-width: 768px) {
+  .whatsapp-text {
+    display: none;
+  }
+
+  .whatsapp-contact-button a {
+    padding: 15px;
+    border-radius: 50%;
+  }
+
+  .whatsapp-icon {
+    margin-right: 0;
+    font-size: 28px;
+  }
+}
